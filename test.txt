@@ -1,0 +1,36 @@
+
+//ans 1
+
+// const R= [
+// {V= 5},
+// {X =10},
+// {L= 50},
+// {C =100},
+// {D= 500},
+// {M =1000}]
+
+// console.log(b[I])
+
+// Input: s = "LVIII"
+// Output: 58
+// Explanation: L = 50, V= 5, III = 3
+
+function romToNum(s){
+
+    const split = s.split("");
+    let result ; 
+    for (i=0 ; i<split.length ; i++){
+     
+    }
+    return result;
+}
+
+console.log(romToNum("III"))
+
+// ans 2 
+
+/* 
+select Employee.name , Bonus.bonus 
+from Employee 
+INNER JOIN Bonus Employee.empId = Bonus.empId
+*/
