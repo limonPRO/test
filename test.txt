@@ -18,7 +18,6 @@ function romanToInt(s) {
         const current = romanMap[s[i]];
         const next = romanMap[s[i + 1]];
 
-        // If the current value is less than the next value, subtract it from total
         if (next && current < next) {
             total -= current;
         } else {
@@ -29,7 +28,6 @@ function romanToInt(s) {
     return total;
 }
 
-// Example usage:
 console.log(romanToInt("LVIII"));
 
 // ans 2 
